@@ -130,6 +130,7 @@ export default function GelatoDashboard() {
         fontFamily: "'DM Sans', 'Helvetica Neue', sans-serif",
         maxWidth: 520,
         margin: "0 auto",
+        padding: "0 16px",
         color: "#2C2C2A",
       }}
     >
