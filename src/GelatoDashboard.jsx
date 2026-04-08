@@ -14,7 +14,7 @@ const CAMPAIGNS = [
     id: 1,
     type: "weather",
     title: "Heat wave SMS blast",
-    desc: "Tomorrow hits 94°F — send 'Beat the heat' offer to 312 nearby customers",
+    desc: "Tomorrow hits 34°C — send 'Beat the heat' offer to 312 nearby customers",
     channel: "SMS",
     status: "pending",
     est_revenue: "$280-420",
@@ -166,7 +166,7 @@ export default function GelatoDashboard() {
           </span>
         </div>
         <div style={{ fontSize: 13, color: "#888780", marginTop: 4 }}>
-          Tuesday, April 7 · 7:42 AM · 82°F → 94°F today
+          Tuesday, April 7 · 7:42 AM · 28°C → 34°C today
         </div>
       </div>
 
