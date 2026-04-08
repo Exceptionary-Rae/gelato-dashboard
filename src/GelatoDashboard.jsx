@@ -344,8 +344,8 @@ export default function GelatoDashboard() {
                     }}
                   >
                     <div style={{ fontSize: 11, color: "#888780" }}>
-                      Est. revenue: <b style={{ color: "#1D9E75" }}>{c.est_revenue}</b> · Cost:{" "}
-                      <b>{c.cost}</b>
+                      Est. revenue: <b style={{ color: "#1D9E75" }}>{c.est_revenue}</b> ·{" "}
+                      <span style={{ whiteSpace: "nowrap" }}>Cost: <b>{c.cost}</b></span>
                     </div>
                     {c.status === "pending" ? (
                       <div style={{ display: "flex", gap: 6 }}>
